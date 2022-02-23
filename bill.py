@@ -25,7 +25,7 @@ while ((userInputName==userInputPrice==userInputQuantity=="") or (userInputName=
         userInputPrice=input("Quel est son prix en FCFA ? :")
         userInputQuantity=input("Quelle quantité a été prise ? :")
         if ((userInputName==userInputPrice==userInputQuantity=="") or (userInputName==""or userInputPrice=="") or (userInputQuantity=="" or userInputName=="") or(userInputPrice=="" or userInputQuantity=="") or( userInputName=="" and userInputQuantity=="") or (userInputName==""and userInputPrice=="") or (userInputPrice=="" and userInputQuantity=="")): 
-            print("Attention de ne laisser une case vide !")
+            print("Attention de ne laisser aucune case vide !")
         
         prixParProduit=int(userInputPrice)*int(userInputQuantity)
 
