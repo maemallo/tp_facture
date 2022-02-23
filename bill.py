@@ -12,6 +12,8 @@ myFournitures = {
 "quantity" : "0"
 }
 
+print("Bonjour")
+
 for key, value in myFournitures.items():
     print("{} : {}".format(key,value))
     
