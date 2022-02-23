@@ -46,7 +46,7 @@ while ((userInputName==userInputPrice==userInputQuantity=="") or (userInputName=
             print("-----")
 
 print(myBillList)
-print(netAPayer)
+print("Vous allez devoir payer : {} F CFA ".format(netAPayer))
 
 
     
